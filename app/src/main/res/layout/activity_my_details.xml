@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/parking"
+    tools:context=".MyDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/My_details"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/profName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/name"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/profName"
+            android:hint=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/profphoneNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/Phone"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/profName"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/profphoneNo"
+            android:hint=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Email"
+            android:id="@+id/profEmail"
+            android:layout_below="@+id/profphoneNo"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/profphoneNo"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/profEmail"
+            android:hint=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/proPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profEmail"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/password"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/profEmail"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/proPassword"
+            android:hint=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CarPlate"
+            android:id="@+id/profcarPlate"
+            android:layout_below="@+id/proPassword"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/et_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/proPassword"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/profcarPlate"
+            android:hint=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/valBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/validBookings"
+            android:layout_below="@+id/profcarPlate"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/et_valBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/profcarPlate"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/valBook"
+            android:hint=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/profileEdit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Display"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:backgroundTint="@color/blue"/>
+
+</LinearLayout>

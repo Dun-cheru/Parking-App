@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/parking"
+    tools:context=".CancelBooking">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Cancel_booking"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:hint="Booking ID"
+        android:textSize="24sp"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:layout_marginRight="30dp"
+        android:text="@string/Search"
+        android:backgroundTint="@color/blue"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/plotId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:text="Plot: "
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/slotId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slot: "
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/DateId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/cancel2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:layout_marginRight="30dp"
+        android:text="@string/BookingCanc"
+        android:backgroundTint="@color/blue"
+        android:textSize="20sp"/>
+
+</LinearLayout>

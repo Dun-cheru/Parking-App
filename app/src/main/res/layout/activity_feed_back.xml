@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/parking"
+    tools:context=".FeedBack">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Feedback"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="Feedback"
+        android:textSize="24sp"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:inputType="textPersonName"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/Submit"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:textSize="20sp"/>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/parking"
+    tools:context=".Homepage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online Parking"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+    <Button
+        android:id="@+id/newBooking"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/white"
+        android:text="@string/New_Booking"
+        android:backgroundTint="@color/lightGreen"
+        android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/ViewBooking"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_toEndOf="@+id/newBooking"
+            android:backgroundTint="@color/lightGreen"
+            android:ems="10"
+            android:text="@string/View_Booking"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    <Button
+        android:id="@+id/myDetails"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/newBooking"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/My_details"
+        android:backgroundTint="@color/lightGreen"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/Feedback"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_toEndOf="@+id/myDetails"
+        android:layout_below="@+id/ViewBooking"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/Feedback"
+        android:backgroundTint="@color/lightGreen"
+        android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/Cancel"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/myDetails"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/lightGreen"
+            android:ems="10"
+            android:text="@string/Cancel_booking"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/Feedback"
+        android:layout_toEndOf="@id/Cancel"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/Logout"
+        android:backgroundTint="@color/lightGreen"
+        android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Thank you for choosing Online Parking"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

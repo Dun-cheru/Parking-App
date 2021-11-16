@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">parking app</string>
+    <string name="header">Online Parking</string>
+    <string name="Sign_In">Sign In</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="Register">Sign Up</string>
+    <string name="User">User Registration</string>
+    <string name="New_Booking">New Booking</string>
+    <string name="View_Booking">View Booking</string>
+    <string name="My_details">My Details</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Cancel_booking">Cancel Booking</string>
+    <string name="Logout">Logout</string>
+    <string name="parking">Plot One</string>
+    <string name="parking2">Plot Two</string>
+    <string name="parking3">Plot Three</string>
+    <string name="parking4">Plot Four</string>
+    <string name="BookingCanc">Cancel</string>
+    <string name="Submit">Submit</string>
+    <string name="Plot">Plot : Plot 1</string>
+    <string name="slot">Slot : Slot2</string>
+    <string name="ID">ID : 3976</string>
+    <string name="Date">Date :10/10/2021</string>
+    <string name="Search">Search</string>
+    <string name="name">Name :</string>
+    <string name="password">Password :</string>
+    <string name="Phone">Phone No :</string>
+    <string name="Email">Email ID :</string>
+    <string name="validBookings">Valid Bookings: </string>
+    <string name="Time">Time :</string>
+    <string name="Date2">Date :</string>
+    <string name="Duration">Duration :</string>
+    <string name="profileEdit">Edit Profile</string>
+    <string-array name="numbers">
+        <item>1 Hr</item>
+        <item>2 Hrs</item>
+        <item>3 Hrs</item>
+        <item>4 Hrs</item>
+        <item>5 Hrs</item>
+        <item>6 Hrs</item>
+        <item>7 Hrs</item>
+        <item>8 Hrs</item>
+        <item>9 Hrs</item>
+        <item>10 Hrs</item>
+    </string-array>
+    <string name="SlotOne">Slot One</string>
+    <string name="SlotTwo">Slot Two</string>
+    <string name="SlotThree">Slot Three</string>
+    <string name="SlotFour">Slot Four</string>
+    <string name="CarPlate">car No Plate: </string>
+</resources>
